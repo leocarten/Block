@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Chain.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <style>
+        @media (min-width:300px) and (max-width:550px){
+
+            .socials{
+                display: inline-block;
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+            .newHeading{
+                font-size: 15px;
+            }
+            .newHeading1{
+                font-size: 15px;
+            }
+            .date{
+                font-size: 10px;
+            }
+            .color{
+                text-align: right;
+                font-size: 25px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color1{
+                text-align: right;
+                font-size: 25px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color2{
+                text-align: right;
+                font-size: 25px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color3{
+                text-align: right;
+                font-size: 25px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .AbMe{
+                font-size: 12px;
+            }
+            .newSection{
+                padding-left: 5px;
+                padding-top: 5px;
+                padding-right: 5px;
+            }
+        }
+    </style>
+        
+    <style>
+        @media (min-width:551px) and (max-width:700px){
+            .AbMe{
+                font-size: 14px;
+            }
+            .date{
+                font-size: 11px;
+            }
+            .newHeading{
+                font-size: 19px;
+            }
+            .newHeading1{
+                font-size: 19px;
+            }
+            .color{
+                text-align: right;
+                font-size: 30px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color1{
+                text-align: right;
+                font-size: 30px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color2{
+                text-align: right;
+                font-size: 30px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color3{
+                text-align: right;
+                font-size: 30px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+        }
+    </style>
+
+    <style>
+        @media (min-width: 900px){
+
+            .color{
+                text-align: right;
+                font-size: 40px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color1{
+                text-align: right;
+                font-size: 40px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color2{
+                text-align: right;
+                font-size: 40px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+            .color3{
+                text-align: right;
+                font-size: 40px;
+                transition: transform .3s; 
+                color: #283746;
+            }
+
+            .AbMe{
+                font-size: 20px;
+            }
+            .date{
+                font-size: 14px;
+            }
+            .newHeading{
+                font-size: 26px;
+            }
+            .newHeading1{
+                font-size: 26px;
+            }
+        }
+    </style>
+
+<div style="display: flex; align-items: center;" id="top">
+    <img class = "addPadImg" style = "border-radius: 50%;" src="Me.jpeg" alt="Girl in a jacket" width="95" height="95">
+    <div class="socials">
+        <a class="color" href="http://linkedin.com/in/leo-carten-925535195" target="_blank"><i class="fa fa-linkedin-square" style="padding-left: 1px; padding-right: 1px;"></i></a>
+        <a class="color1" href="https://github.com/leocarten" target="_blank"><i class="fa fa-github-square" style="padding-left: 1px; padding-right: 10px;"></i></a>
+        <a class="color2" href="mailto:lmc1076@plymouth.edu"><i class="fa fa-envelope-square" style="padding-left: 1px; padding-right: 1px;"></i></a>
+        <a class="color3" href="https://twitter.com/TheChosen0ne69" target="_blank"><i class="fa fa-twitter-square" style="padding-left: 1px; padding-right: 10px;"></i></a>
+    
+    </div>
+</div> 
+
+<div class="newSection">
+    <p class="newHeading" id="AboutMe">Blockchain Explorer</p>
+    <p class="date">July 2022 - September 2022</p>
+    <p class="AbMe">I created this explorer for a single purpose - to track users who bypass paying royalties on the swap of assets. Simply put, royalties is a source of passive income paid to creators when an asset they created is traded, bought, or sold. </p>
+    <p class="AbMe">When a user makes a swap using <span class="underline">smart contracts</span>, royalties are programmed into the smart contract directly (so royalties get paid). However, when users do a trade peer-to-peer, there are no royalties in the sale since the royalties aren't programmed on the asset level.</p>
+    <p class="AbMe">My explorer iterates through a specific wallet address and will look for the swap of NFTs with the collection identifier <span class="highlight"> EAPES-8f3c1f</span>. If such transaction is found, it will then check for the payments of liquid assets to or from the address (this procedure mimics the peer-to-peer transactions). Each detail, such as hashes, senders, and recievers is hyperlinked to the offical explorer for verification purposes.</p>
+    <p class="AbMe">You can view my explorer <span class="underlineSpec"><a class="underlineSpec" href="https://elrond-apes.github.io/Elrond/Explorer/Peer-to-peer-trans.html" target="_blank">here</a></span>. You'll see 4 buttons.</p>
+    <p class="newHeading1" id="AboutMe">Search Address Button</p>
+    <p class="AbMe">Insert an ERD address to return any potential peer-to-peer transactions done by this address. For example, try searching this address: <span class="highlight">erd18wa3vz8r4zye7el55alyf7llt9gjnghlturl2ft28a72x6f0jt6smkra3t</span></p>
+    <p class="newHeading1" id="AboutMe">Get The Herotag Button</p>
+    <p class="AbMe">Herotags are a unique trait to the Elrond Blockchain - you can think of a herotag like a username, so instead of transfering money to a wallet address 20 random characters in length, you can type a simple name. For example, try <span class="highlight">mikey</span>, which will return this persons wallet address.</p>
+    <p class="newHeading1" id="AboutMe">Find Owner Button</p>
+    <p class="AbMe">This will scan the chain and return the wallet address or smart-contract in which an NFT is owned by. For example, try searching this unique identifier: <span class="highlight">EAPES-8f3c1f-2211</span>.</p>
+    <p class="newHeading1" id="AboutMe">Latest Transactions Button</p>
+    <p class="AbMe">This is a fairly large request - to it may take a second to process. This will scan the entire chain and return 500 of the most recent transactions in which an NFT will the identifier <span class="highlight"> EAPES-8f3c1f</span> is used. A transaction that includes no smart-contracts is highlighted in red.</p>
+</div>
+
+</body>
+</html>
